@@ -1,7 +1,4 @@
 ﻿
-
-using System.Diagnostics;
-
 int[,] input = {
             {1, 2, 3, 4},
             {12, 13, 14, 5},

@@ -1,6 +1,6 @@
 ﻿
-int[] nums = new int[] { 3, 5, -4, 8, 11, 1, -1, 6 };
-int target = 10;
+int[] nums = new int[] { 1,2,3,4,5,6 };
+int target = 9;
 
 int[] result = GetTwoSums(nums);
 foreach (var item in result)
