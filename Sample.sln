@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPalindromeCheck", "Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sliding Window Maximum", "Sliding Window Maximum\Sliding Window Maximum.csproj", "{D2566262-7A6A-41D3-BA68-96C7E8FF4F8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subarray with given sum", "Subarray with given sum\Subarray with given sum.csproj", "{C6777D7D-9C9B-4441-BED1-4607EED5A0CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subarray with given sum", "Subarray with given sum\Subarray with given sum.csproj", "{C6777D7D-9C9B-4441-BED1-4607EED5A0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zero Shift Right Side Array", "Zero Shift Right Side Array\Zero Shift Right Side Array.csproj", "{14074ECA-30B6-4473-BAF5-274FC5F8EA57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,10 @@ Global
 		{C6777D7D-9C9B-4441-BED1-4607EED5A0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6777D7D-9C9B-4441-BED1-4607EED5A0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6777D7D-9C9B-4441-BED1-4607EED5A0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14074ECA-30B6-4473-BAF5-274FC5F8EA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14074ECA-30B6-4473-BAF5-274FC5F8EA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14074ECA-30B6-4473-BAF5-274FC5F8EA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14074ECA-30B6-4473-BAF5-274FC5F8EA57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
