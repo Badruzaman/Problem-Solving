@@ -10,9 +10,13 @@ for (int i = 0; i < arr.Length; i++)
             minIdx = j;
         }
     }
-    int temp = arr[i];
-    arr[i] = arr[minIdx];
-    arr[minIdx] = temp;
+    if (i < arr[minIdx])
+    {
+        int temp = arr[i];
+        arr[i] = arr[minIdx];
+        arr[minIdx] = temp;
+    }
+
 }
 for (int i = 0; i < arr.Length; i++)
 {

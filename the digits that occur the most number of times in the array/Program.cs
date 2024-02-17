@@ -16,7 +16,7 @@ int[] solution()
 		while (currentNum > 0)
 		{
 			int remainder = currentNum % 10;
-			counts[remainder] += 1;
+			counts[remainder]++;
             currentNum /= 10;
 		}
 	}

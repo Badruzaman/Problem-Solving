@@ -7,6 +7,9 @@ linklist.AddToFront(10);
 linklist.AddToFront(16);
 linklist.AddToFront(32);
 linklist.print();
+string str1 = "Interview";
+str1 = str1 + " Happy";
+Console.WriteLine(str1);
 Console.ReadKey();
 
 

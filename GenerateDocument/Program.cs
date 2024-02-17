@@ -1,8 +1,8 @@
 ﻿
 
-string characters = "Bste!hetsi ogEAxpelrt x ";
-string document = "AlgoExpert is the Best!";
-bool result = GenerateDocument(characters, document);
+string characters = "aabbcc";
+string document = "acacbcb";
+bool result = solution(characters, document);
 Console.Write(result);
 Console.ReadKey();
 
@@ -35,7 +35,7 @@ Console.ReadKey();
 //	return count;
 //}
 
-bool GenerateDocument(string characters, string document)
+bool GenerateDocument01(string characters, string document)
 {
     foreach (char ch in document)
     {
@@ -47,6 +47,29 @@ bool GenerateDocument(string characters, string document)
         {
             return false;
         }
+    }
+    return true;
+}
+bool solution(string characters, string document)
+{
+    Dictionary<char, int> characterCounts = new Dictionary<char, int>();
+    for (int i = 0; i < characters.Length; i++)
+    {
+        char ch = characters[i];
+        if (!characterCounts.ContainsKey(ch))
+        {
+            characterCounts[ch] = 0;
+        }
+        characterCounts[ch]++;
+    }
+    for (int j = 0; j < document.Length; j++)
+    {
+        char ch = document[j];
+        if (!characterCounts.ContainsKey(ch) || characterCounts[ch] == 0)
+        {
+            return false;
+        }
+        characterCounts[ch] = characterCounts[ch] - 1;
     }
     return true;
 }

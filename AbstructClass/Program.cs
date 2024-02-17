@@ -14,7 +14,6 @@ public abstract class Employee
         LastName = lastName;
         Email = email;
     }
-
     public decimal getSalary()
     {
         return 10000;

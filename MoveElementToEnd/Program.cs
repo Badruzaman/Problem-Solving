@@ -1,6 +1,6 @@
 ﻿
 
-int[] arr = { 2, 1, 2, 2, 2, 3, 4, 2 };
+int[] arr = { 0, 5, 0, 2, 1, 0, 4 };
 int toMove = 2;
 int[] result = MoveElementToEnd(arr);
 foreach (int item in result)
@@ -8,7 +8,6 @@ foreach (int item in result)
     Console.Write(item + " ");
 }
 Console.ReadKey();
-
 int[] MoveElementToEnd(int[] arr)
 {
     int left = 0;
