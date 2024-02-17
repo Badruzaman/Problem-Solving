@@ -8,6 +8,7 @@ namespace TestSample.LinkedListProblems
 {
     internal interface IlinkedList
     {
+
         public static ListNode NodeConstruction()
         { 
             ListNode listNode = new ListNode(1);
