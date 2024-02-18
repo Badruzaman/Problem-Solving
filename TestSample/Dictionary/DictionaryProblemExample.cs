@@ -17,7 +17,7 @@ namespace TestSample.Dictionary
             {
                 if (!keyValuePairs.ContainsKey(ch))
                 {
-                    keyValuePairs.Add(ch, 0);
+                    keyValuePairs[ch] = 0;
                 }
                 keyValuePairs[ch]++;
             }
@@ -40,11 +40,12 @@ namespace TestSample.Dictionary
         }
         // time o(nlogn) + o(n) 
         // space o(1)
+        // input = aavvddd
         internal (char, int) getMaxOccuringCharacter_01(string str)
         {
             var orderedStr = str.OrderBy(it => it).ToArray();
             int max = 0;
-            char ch1 = ' ';
+            char ch1 = '\0';
             int count = 1;
             for (int i = 0; i < orderedStr.Length - 1; i++)
             {

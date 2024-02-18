@@ -6,7 +6,13 @@ using TestSample.RomanProblems;
 using TestSample.LinkedListProblems;
 using TestSample.Longest_Substring_Without_Repeating_Characters;
 using TestSample.Public_Bank_Malaysia;
+using TestSample.StringProblem;
 
+
+// remove duplicate word from a string
+string teststring = "this is a book is on the table";
+string output = IString.removeDuplicateWord(teststring);
+Console.WriteLine($" the orginal string is {teststring} and output is {output}");
 // hacker rank problems
 List<int> numberlist = new List<int> { 1,2,3,4,5,6};
 int k = 5;
@@ -21,7 +27,7 @@ Console.WriteLine($"input string is {str1} and count is {result}");
 DictionaryProblemExample dictionaryProblemExample = new DictionaryProblemExample();
 string str = "aavvddd";
 var res = dictionaryProblemExample.getMaxOccuringCharacter(str);
-Console.WriteLine($" key is {res.Item1} value is {res.Item2}");
+Console.WriteLine($" string of {str} its key is {res.Item1} value is {res.Item2}");
 
 var res01 = dictionaryProblemExample.getMaxOccuringCharacter_01(str);
 Console.WriteLine($" key is {res.Item1} value is {res.Item2}");

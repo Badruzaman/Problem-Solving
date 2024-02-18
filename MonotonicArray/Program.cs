@@ -6,19 +6,19 @@ Console.WriteLine(result);
 Console.ReadKey();
 bool IsMonotonicArray(int[] arr)
 {   
-    bool isNonDcreasing = true;
+    bool isNonDecreasing = true;
     bool isNonIncreasing = true;
    
     for (int i = 1; i < arr.Length; i++)
     {
         if (arr[i] < arr[i - 1])
         {
-            isNonDcreasing = false;
+            isNonDecreasing = false;
         }
         if (arr[i] > arr[i - 1])
         {
             isNonIncreasing = false;
         }
     }
-    return  isNonIncreasing || isNonDcreasing;
+    return  isNonIncreasing || isNonDecreasing;
 }
