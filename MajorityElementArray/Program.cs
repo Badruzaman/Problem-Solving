@@ -6,7 +6,6 @@ Console.WriteLine(result);
 Console.ReadKey();
 
 
-
 int solution(int[] arr)
 {
     Dictionary<int, int> keyValuePairs = new Dictionary<int, int>();
@@ -40,9 +39,7 @@ int solution(int[] arr)
 }
 int solution01(int[] arr)
 {
-    int count = 0, max_ele = -1,
-            temp = arr[0], ele = 0,
-               f = 0;
+    int count = 0, max_ele = 0, temp = arr[0];
     Array.Sort(arr);
     for (int i = 1; i < arr.Length; i++)
     {
@@ -58,14 +55,36 @@ int solution01(int[] arr)
         if(max_ele < count)
         {
             max_ele = count;
-            ele = arr[i];
             if (max_ele > (arr.Length / 2))
             {
-                f = 1;
-                break;
+                return arr[i];
             }
-
         }
     }
-    return (f == 1 ? ele : -1);
+    return -1;
+}
+
+int getMajorityElement(int[] arr)
+{
+    Dictionary<int, int> elementCount = new Dictionary<int, int>();
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (elementCount.ContainsKey(arr[i]))
+        {
+            int count = elementCount[arr[i]] + 1;
+            if(count > arr.Length / 2)
+            {
+                return arr[i];
+            }
+            else
+            {
+                elementCount[arr[i]] = count;
+            }
+        }
+        else
+        {
+            elementCount[arr[i]] = 1;
+        }
+    }
+    return -1;
 }

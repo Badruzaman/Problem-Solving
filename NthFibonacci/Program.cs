@@ -1,5 +1,5 @@
 ﻿
-int n = 10;
+int n = 9;
 int[] res = generateFibonacci(n);
 foreach (int i in res)
 {

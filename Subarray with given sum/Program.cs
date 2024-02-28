@@ -1,6 +1,5 @@
 ﻿
 
-
 int[] arr = new int[] { 1, 2, 3, 7, 5 };
 int s = 15;
 List<int> result = solution(arr, s);

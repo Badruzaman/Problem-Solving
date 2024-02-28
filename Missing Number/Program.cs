@@ -1,6 +1,6 @@
 ﻿
 int[] arr = { 1, 3, 4 };
-int res = solution(arr);
+int res = solution_01(arr);
 Console.WriteLine(res);
 Console.ReadKey();
 
@@ -36,3 +36,4 @@ int solution_01(int[] nums)
     }
     return -1;
 }
+
