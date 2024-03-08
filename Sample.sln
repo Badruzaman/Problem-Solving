@@ -193,7 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicBankHackerRank", "Pub
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wunderman Thomeson", "Wunderman Thomeson\Wunderman Thomeson.csproj", "{4937858C-0920-4047-9DD6-9C8B5F9EFA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegregateEvenOddNumbers", "SegregateEvenOddNumbers\SegregateEvenOddNumbers.csproj", "{CC6A0B1D-DA76-4215-8106-1ADD19181D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegregateEvenOddNumbers", "SegregateEvenOddNumbers\SegregateEvenOddNumbers.csproj", "{CC6A0B1D-DA76-4215-8106-1ADD19181D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieDS", "TrieDS\TrieDS.csproj", "{978FDF34-F536-4C70-A172-57DF1D759F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -581,6 +583,10 @@ Global
 		{CC6A0B1D-DA76-4215-8106-1ADD19181D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6A0B1D-DA76-4215-8106-1ADD19181D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6A0B1D-DA76-4215-8106-1ADD19181D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978FDF34-F536-4C70-A172-57DF1D759F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978FDF34-F536-4C70-A172-57DF1D759F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978FDF34-F536-4C70-A172-57DF1D759F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978FDF34-F536-4C70-A172-57DF1D759F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
