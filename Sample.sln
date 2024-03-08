@@ -199,6 +199,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieDS", "TrieDS\TrieDS.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOccuringNum", "MaxOccuringNum\MaxOccuringNum.csproj", "{C66D81B5-22C1-4700-8674-7AFB9A345C93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDatabaseConnection", "MutilpleDatabaseConnection\MultipleDatabaseConnection.csproj", "{33AD8B03-8ADE-476E-94D5-7F744968A325}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -593,6 +595,10 @@ Global
 		{C66D81B5-22C1-4700-8674-7AFB9A345C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C66D81B5-22C1-4700-8674-7AFB9A345C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C66D81B5-22C1-4700-8674-7AFB9A345C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
