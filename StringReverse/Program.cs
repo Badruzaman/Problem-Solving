@@ -1,5 +1,5 @@
 ﻿
-string str = "Badruzzaman";
+string str = "aba";
 string result = getResult(str);
 Console.WriteLine(result);
 Console.ReadKey();
