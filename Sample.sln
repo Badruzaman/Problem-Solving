@@ -195,11 +195,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wunderman Thomeson", "Wunde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegregateEvenOddNumbers", "SegregateEvenOddNumbers\SegregateEvenOddNumbers.csproj", "{CC6A0B1D-DA76-4215-8106-1ADD19181D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieDS", "TrieDS\TrieDS.csproj", "{978FDF34-F536-4C70-A172-57DF1D759F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrieDS", "TrieDS\TrieDS.csproj", "{978FDF34-F536-4C70-A172-57DF1D759F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOccuringNum", "MaxOccuringNum\MaxOccuringNum.csproj", "{C66D81B5-22C1-4700-8674-7AFB9A345C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxOccuringNum", "MaxOccuringNum\MaxOccuringNum.csproj", "{C66D81B5-22C1-4700-8674-7AFB9A345C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDatabaseConnection", "MutilpleDatabaseConnection\MultipleDatabaseConnection.csproj", "{33AD8B03-8ADE-476E-94D5-7F744968A325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDatabaseConnection", "MutilpleDatabaseConnection\MultipleDatabaseConnection.csproj", "{33AD8B03-8ADE-476E-94D5-7F744968A325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingTxtFile", "ReadingTxtFile\ReadingTxtFile.csproj", "{1DFC672A-B7BB-4094-AE85-BCB38D7E2952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -599,6 +601,10 @@ Global
 		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33AD8B03-8ADE-476E-94D5-7F744968A325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFC672A-B7BB-4094-AE85-BCB38D7E2952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFC672A-B7BB-4094-AE85-BCB38D7E2952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFC672A-B7BB-4094-AE85-BCB38D7E2952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFC672A-B7BB-4094-AE85-BCB38D7E2952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
